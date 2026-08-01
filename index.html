@@ -9,16 +9,16 @@
 <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
 <style>
   :root{
-    --cream:#F7F3EA;
-    --card:#FFFDF8;
-    --line:#E4DCC8;
-    --ink:#241F1A;
-    --ink-soft:#54493C;
-    --gold:#A67C52;
-    --gold-deep:#7C5A38;
-    --gold-pale:#EFE3CE;
-    --sage-bg:#EDEFE4;
-    --sage-ink:#5B6249;
+    --cream:#FAFAF9;
+    --card:#FFFFFF;
+    --line:#E2E2E0;
+    --ink:#1A1A1A;
+    --ink-soft:#5C5C5A;
+    --gold:#3A3A38;
+    --gold-deep:#000000;
+    --gold-pale:#EDEDEB;
+    --sage-bg:#F2F2F0;
+    --sage-ink:#333331;
   }
   *{box-sizing:border-box;margin:0;padding:0;}
   body{
@@ -122,11 +122,8 @@
   .content p{
     margin-top:8px;
     font-size:15.5px;
-    line-height:1.6;
+    line-height:1.75;
     color:var(--ink-soft);
-  }
-  .content p + p{
-    margin-top:2px;
   }
   .icon{
     width:22px;height:22px;
@@ -148,13 +145,13 @@
     border-radius:4px;
     padding:20px 22px;
   }
-  .note.sage{ background:var(--sage-bg); border-color:#DBDFC7; }
+  .note.sage{ background:var(--sage-bg); border-color:#DEDEDC; }
   .note .note-head{
     display:flex;align-items:center;gap:10px;
     font-weight:700;font-size:16px;
     margin-bottom:8px;
   }
-  .note.sage .note-head{ color:#3E4530; }
+  .note.sage .note-head{ color:var(--sage-ink); }
   .note:not(.sage) .note-head{ color:var(--gold-deep); }
   .note p{font-size:15px;line-height:1.75;color:var(--ink-soft);}
   .note .note-icon{width:18px;height:18px;flex:none;}
