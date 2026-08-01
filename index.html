@@ -120,13 +120,16 @@
     line-height:1.5;
   }
   .content p{
-    margin-top:16px;
+    margin:0;
     font-size:15.5px;
     line-height:1.7;
     color:var(--ink-soft);
   }
-  .content p:first-of-type{
+  .content .desc{
     margin-top:8px;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
   }
   .icon{
     width:22px;height:22px;
@@ -216,9 +219,11 @@
       <div class="content">
         <div class="eyebrow">STEP <span class="step-num">01</span></div>
         <h3>본식스냅 + 안내사항 메일 수신</h3>
-        <p>촬영 원본과 안내 메일을 보내드립니다.</p>
-        <p>원본 메일은 본식 후, 2~3주 안으로 전송!</p>
-        <p>원본 메일 전송 후, 채널톡으로 안내 메세지 드려요~</p>
+        <div class="desc">
+          <p>촬영 원본과 안내 메일을 보내드립니다.</p>
+          <p>원본 메일은 본식 후, 2~3주 안으로 전송!</p>
+          <p>원본 메일 전송 후, 채널톡으로 안내 메세지 드려요~</p>
+        </div>
       </div>
     </div>
 
@@ -229,9 +234,11 @@
       <div class="content">
         <div class="eyebrow">STEP <span class="step-num">02</span></div>
         <h3>사진 셀렉 후 클라우드 업로드</h3>
-        <p>마음에 드시는 사진을 고르신 뒤, 메일에 안내된 클라우드 링크로 업로드해 주세요.</p>
-        <p>업로드 하실 때, 파일명은 '본식날짜_신부님 성함'</p>
-        <p>예) 20260504_김세리</p>
+        <div class="desc">
+          <p>마음에 드시는 사진을 고르신 뒤, 메일에 안내된 클라우드 링크로 업로드해 주세요.</p>
+          <p>업로드 하실 때, 파일명은 '본식날짜_신부님 성함'</p>
+          <p>예) 20260504_김세리</p>
+        </div>
       </div>
     </div>
 
@@ -242,7 +249,9 @@
       <div class="content">
         <div class="eyebrow">STEP <span class="step-num">03</span></div>
         <h3>채널톡으로 업로드 완료 알림</h3>
-        <p>디어메모리 채널톡으로 업로드가 끝났다는 메시지를 보내주시면 접수가 확인됩니다.</p>
+        <div class="desc">
+          <p>디어메모리 채널톡으로 업로드가 끝났다는 메시지를 보내주시면 접수가 확인됩니다.</p>
+        </div>
       </div>
     </div>
 
@@ -253,7 +262,9 @@
       <div class="content">
         <div class="eyebrow">STEP <span class="step-num">04</span></div>
         <h3>4~5개월 후 보정본 메일 수신</h3>
-        <p>순차적으로 보정 작업을 진행하며, 완료되면 메일로 보정본을 전달해 드립니다.</p>
+        <div class="desc">
+          <p>순차적으로 보정 작업을 진행하며, 완료되면 메일로 보정본을 전달해 드립니다.</p>
+        </div>
       </div>
     </div>
 
@@ -264,7 +275,9 @@
       <div class="content">
         <div class="eyebrow">STEP <span class="step-num">05</span></div>
         <h3>이상 없으면 인쇄 요청 회신</h3>
-        <p>보정본 확인 후 문제가 없으시면, 인쇄를 요청하는 답메일을 보내주세요.</p>
+        <div class="desc">
+          <p>보정본 확인 후 문제가 없으시면, 인쇄를 요청하는 답메일을 보내주세요.</p>
+        </div>
       </div>
     </div>
 
@@ -275,9 +288,11 @@
       <div class="content">
         <div class="eyebrow">STEP <span class="step-num">06</span></div>
         <h3>일주일 후 집으로 택배 수령</h3>
-        <p>인쇄 요청 후 약 일주일 뒤, 자택으로 앨범이 배송됩니다.</p>
-        <p>택배는 주소 1곳으로 전달드리며, 전송 전에 주소 확인 하고 있습니다.</p>
-        <p>여러 주소로 보내고 싶으시다면, 따로 문의 부탁드려요~</p>
+        <div class="desc">
+          <p>인쇄 요청 후 약 일주일 뒤, 자택으로 앨범이 배송됩니다.</p>
+          <p>택배는 주소 1곳으로 전달드리며, 전송 전에 주소 확인 하고 있습니다.</p>
+          <p>여러 주소로 보내고 싶으시다면, 따로 문의 부탁드려요~</p>
+        </div>
       </div>
     </div>
 
@@ -297,7 +312,7 @@
         재수정 요청 안내
       </div>
       <p>보정본을 받아보신 후 다시 수정하고 싶은 부분이 있다면, 답메일에 남겨주세요. 최대한 빠르게 재보정해 드립니다.</p>
-      <p>상황에 따라 지체되는 경우도 있으니 참고 부탁드려요.보정이 가능한 범위가 정해져 있습니다. 메일 안내사항 확인 부탁드려요.
+      <p>상황에 따라 지체되는 경우도 있으니 참고 부탁드려요. 보정이 가능한 범위가 정해져 있습니다. 메일 안내사항 확인 부탁드려요.</p>
     </div>
   </div>
 
